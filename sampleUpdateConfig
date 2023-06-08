@@ -1,0 +1,15 @@
+#sample yaml file
+rules:
+  allowedAccountTypes:
+    - 'savings'
+    - 'joint'
+  deniedAccountTypes:
+    - 'current'
+    - 'huf'
+  prmThreshold: 5000
+  accountSearchRelation:
+    {
+      OTH:  { Others: I},
+      NON:  { Invalid: I},
+      MIN:  { Minor: I}
+    }
