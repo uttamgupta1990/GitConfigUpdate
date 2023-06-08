@@ -5,7 +5,7 @@ rules:
   deniedAccountTypes:
   - current
   - huf
-  prmThreshold: 6000.0
+  prmThreshold: 5000.0
   accountSearchRelation:
     OTH:
       Others: I
